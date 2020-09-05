@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact-us</title>
+    <!-- <link rel="stylesheet" href=""> -->
+    <link rel="stylesheet" href="/assets/css/contact-us.css">
+    <script src="https://kit.fontawesome.com/93ebee4231.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="navbar-content">
+                <div class="content-1">
+                    <img src="../assets/img/logo.png" alt="Naija Yellow Catalogue Logo">
+                </div>
+                <div class="content-2">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="./about.html" class="active">About us</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="./contact-us.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="content-3">
+                    <ul>
+                        <li><a href="../index.html">Sign-in</a></li>
+                        <li><a href="./about.html">Register</a></li>
+                        <li><a href="#" class="active">+ Add Listings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="contact-us">
+        <div class="contact-container">
+            <h2>Contact US</h2>
+            <form action="POST" data-netlify="true">
+
+                <label for="name">Name:</label> <br>
+                <input type="text" name="name"><br>
+                <label for="email">Email:</label> <br>
+                <input type="email" name="email"><br>
+                <label for="text">Message</label> <br>
+                <textarea name="text" cols="25" rows="5"></textarea><br>
+                <button class="submit" value="submit"> submit</button>
+
+            </form>
+        </div>
+        <div class="newsletter">
+            <p>subscribe to our newsletter</p>
+            <form name="name" action="POST" data-netlify="true">
+                <input type="email" name="email" placeholder="Your Email">
+                <button type="submit">submit</button>
+            </form>
+
+            <div class="social-icon">
+
+                <a href="mailto:" target="_blank"> <i class="fas fa-mail-bulk"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>

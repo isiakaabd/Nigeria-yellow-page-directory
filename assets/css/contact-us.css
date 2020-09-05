@@ -1,0 +1,210 @@
+                                                                    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+                                                                    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Ubuntu&display=swap');
+                                                                    /* THE FONT-FAMILY */
+                                                                    /* HOW TO USE THE FONT-FA ILY */
+                                                                    /*font-family: 'Roboto Condensed',
+sans-serif;
+font-family: 'Ubuntu',
+sans-serif; */
+                                                                    /* RESET */
+                                                                    
+                                                                    *,
+                                                                     ::before,
+                                                                     ::after {
+                                                                        box-sizing: border-box;
+                                                                        margin: 0;
+                                                                        padding: 0;
+                                                                        font-family: 'Ubuntu', sans-serif, 'Roboto', sans-serif;
+                                                                        line-height: auto;
+                                                                        font-size: 15px;
+                                                                        background: #0000;
+                                                                    }
+                                                                    /* NAVBAR STYLING */
+                                                                    
+                                                                    header {
+                                                                        background: rgba(0, 0, 0, 0.96);
+                                                                        font-family: 'Ubuntu', sans-serif;
+                                                                        height: 75px;
+                                                                    }
+                                                                    
+                                                                    #navbar .navbar-content {
+                                                                        display: flex;
+                                                                        justify-content: space-between;
+                                                                        margin: auto;
+                                                                        max-width: 96%;
+                                                                    }
+                                                                    /* NAVBAR LOGO STYLING*/
+                                                                    
+                                                                    .navbar-content .content-1 img {
+                                                                        position: relative;
+                                                                        top: 15px;
+                                                                    }
+                                                                    /* CONTENT-2 STYLING */
+                                                                    
+                                                                    .navbar-content .content-2 ul {
+                                                                        display: flex;
+                                                                        justify-content: space-between;
+                                                                        position: relative;
+                                                                        top: 25px;
+                                                                    }
+                                                                    
+                                                                    .navbar-content .content-2 li {
+                                                                        list-style-type: none;
+                                                                    }
+                                                                    
+                                                                    .navbar-content .content-2 a {
+                                                                        text-decoration: none;
+                                                                        color: #ffffff;
+                                                                        padding: 17px;
+                                                                        font-size: 15px;
+                                                                    }
+                                                                    
+                                                                    .navbar-content .content-2 a:hover {
+                                                                        color: #EBBA32;
+                                                                    }
+                                                                    
+                                                                    .navbar-content .content-2 .active {
+                                                                        color: #EBBA32;
+                                                                    }
+                                                                    /* CONTENT-3 STYLING */
+                                                                    
+                                                                    .navbar-content .content-3 ul {
+                                                                        display: flex;
+                                                                        justify-content: space-between;
+                                                                        position: relative;
+                                                                        top: 25px;
+                                                                    }
+                                                                    
+                                                                    .navbar-content .content-3 li {
+                                                                        list-style-type: none;
+                                                                    }
+                                                                    
+                                                                    .navbar-content .content-3 a {
+                                                                        text-decoration: none;
+                                                                        color: #ffffff;
+                                                                        font-size: 15px;
+                                                                        padding: 17px;
+                                                                    }
+                                                                    
+                                                                    .navbar-content .content-3 a:hover {
+                                                                        color: #EBBA32;
+                                                                    }
+                                                                    
+                                                                    .navbar-content .content-3 .active {
+                                                                        background: #EBBA32;
+                                                                        color: #ffffff;
+                                                                        padding: 15px;
+                                                                        border-radius: 5px;
+                                                                    }
+                                                                    
+                                                                    .navbar-content .content-3 .active:hover {
+                                                                        color: #ffffff;
+                                                                    }
+                                                                    /* contact Us */
+                                                                    
+                                                                    .contact-us {
+                                                                        display: flex;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                        flex-direction: column;
+                                                                        background-color: #EBBA32;
+                                                                        opacity: 0.9;
+                                                                        padding-top: 2rem;
+                                                                    }
+                                                                    
+                                                                    .contact-us h2 {
+                                                                        font-size: 3rem;
+                                                                        text-transform: uppercase;
+                                                                        margin-bottom: 2rem;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    .contact-container {
+                                                                        display: block;
+                                                                        padding-bottom: 12px;
+                                                                    }
+                                                                    
+                                                                    label {
+                                                                        margin-bottom: 10px;
+                                                                        padding: 12px;
+                                                                    }
+                                                                    
+                                                                    .contact-container input,
+                                                                    textarea {
+                                                                        width: 25rem;
+                                                                        /* border-bottom-style: double; */
+                                                                        border-top-style: none;
+                                                                        border-right-style: none;
+                                                                        border-left-style: none;
+                                                                        border-bottom-style: groove;
+                                                                        border-width: 2px;
+                                                                        /* height: 12px; */
+                                                                        margin-bottom: 12px;
+                                                                        padding: 12px;
+                                                                    }
+                                                                    
+                                                                    button {
+                                                                        text-align: center;
+                                                                        width: 100px;
+                                                                        margin-left: 150px;
+                                                                        padding: 8px 12px;
+                                                                        align-self: center;
+                                                                        border-radius: 8px;
+                                                                        transition: all 2s ease-in-out;
+                                                                        background: rgba(0, 0, 0, 0.96);
+                                                                        color: #fff;
+                                                                        box-shadow: 5px 5px 0 #EBBA32;
+                                                                    }
+                                                                    
+                                                                    button:hover {
+                                                                        transform: scale(0.9);
+                                                                        color: #EBBA32;
+                                                                    }
+                                                                    
+                                                                    .contact-container input:focus,
+                                                                    textarea:focus,
+                                                                    .newsletter input:focus {
+                                                                        outline: none;
+                                                                        background: black;
+                                                                        color: white;
+                                                                        border: rgba(0, 0, 0, 0.96) 2px solid;
+                                                                        box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.96);
+                                                                    }
+                                                                    
+                                                                    .newsletter p {
+                                                                        font-size: 2rem;
+                                                                        margin: 2rem;
+                                                                        text-transform: capitalize;
+                                                                        text-align: center;
+                                                                    }
+                                                                    
+                                                                    .newsletter input {
+                                                                        width: 300px;
+                                                                        padding: .4rem;
+                                                                        margin-bottom: 10px;
+                                                                        border-radius: 6px;
+                                                                    }
+                                                                    
+                                                                    .social-icon {
+                                                                        display: flex;
+                                                                        justify-content: center;
+                                                                    }
+                                                                    
+                                                                    .social-icon i {
+                                                                        width: 45px;
+                                                                        height: 45px;
+                                                                        display: flex;
+                                                                        justify-content: center;
+                                                                        align-items: center;
+                                                                        margin: 20px;
+                                                                        border-radius: 50%;
+                                                                        background-color: rgba(0, 0, 0, 0.96);
+                                                                        align-self: center;
+                                                                        z-index: 1;
+                                                                        transition: all 1s ease-in-out;
+                                                                    }
+                                                                    
+                                                                    .social-icon i:hover {
+                                                                        transform: scale(1.8);
+                                                                        color: #fff;
+                                                                    }
